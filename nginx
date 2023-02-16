@@ -7,9 +7,9 @@ http {
 		listen 443 ssl;
 
 		ssl_certificate /etc/letsencrypt/live/<domen>/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/<domen>/privkey.pem;
-    include /etc/letsencrypt/options-ssl-nginx.conf;
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+    		ssl_certificate_key /etc/letsencrypt/live/<domen>/privkey.pem;
+    		include /etc/letsencrypt/options-ssl-nginx.conf;
+    		ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
 		server_name uzzuww.site;
 
